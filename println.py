@@ -25,3 +25,5 @@ class UniqueRowsCommand(sublime_plugin.TextCommand):
 		distinct_lines = list(OrderedDict.fromkeys(lines))
 		text = '\n'.join(distinct_lines)
 		self.view.replace(edit, sublime.Region(0, self.view.size()), text)
+
+
