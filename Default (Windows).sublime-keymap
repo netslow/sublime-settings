@@ -14,6 +14,8 @@
     { "keys": ["ctrl+shift+u"], "command": "upper_case" },
     { "keys": ["ctrl+shift+l"], "command": "lower_case" },
 
-    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} }
+    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true}},
+
+    { "keys": ["alt+shift+o"], "command": "surround_with_print" } 
 
 ]
