@@ -4,6 +4,7 @@
 	"font_size": 23,
 	"ignored_packages":
 	[
+		"A File Icon",
 		"Vintage"
 	],
 	"scroll_past_end": true,
